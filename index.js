@@ -58,6 +58,7 @@ const messages = () => {
         if(text === 'Strapon') {
             return bot.sendPhoto(chatId, `${enDescription.strapon.photo}`, {caption:enDescription.strapon.caption});
         }
+        
         bot.sendMessage(chatId, `Я тебя не понимаю, уёбок.`);
     })
 }
